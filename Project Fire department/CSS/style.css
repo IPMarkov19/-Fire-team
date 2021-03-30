@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    margin: 0;
+}
+
+.firstDiv{
+    background-color: rgb(22, 79, 126);
+    height: fit-content;
+   
+}
+
+.imageLogo{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
+
+.combine{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.Burgas{
+    margin: 0;
+    color: whitesmoke;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    transition: 400ms;
+}
+.Burgas:hover{
+    color: rgb(243, 239, 16);
+}
+
+.left-header-button-allign{
+    text-align: right;
+    width: 97%;
+   
+}
+
+.left-header-button{
+    background-color: yellow;
+    border-radius: 3px;
+    border-color: rgb(243, 239, 16);
+    margin-right: 10px;
+}
+
+.Header-table{
+   width: 100%;
+}
