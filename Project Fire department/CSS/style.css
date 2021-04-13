@@ -40,12 +40,17 @@ body{
 }
 
 .left-header-button{
+    font-weight: bold;
     background-color: yellow;
-    border-radius: 3px;
-    border-color: rgb(243, 239, 16);
-    margin-right: 10px;
+    border: none;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 45%;
 }
+.left-header-button-allign::after{
+   content: 'Info';
+   color: rgb(243, 239, 16);
+   margin-right: 25px;
 
-.Header-table{
-   width: 100%;
-}
+
+
