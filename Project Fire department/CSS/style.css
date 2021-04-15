@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: black;
     margin: 0;
 }
 
@@ -40,17 +40,39 @@ body{
 }
 
 .left-header-button{
+    font-size: 16px;
     font-weight: bold;
     background-color: yellow;
     border: none;
     margin-right: 5px;
-    padding: 5px;
-    border-radius: 45%;
+    padding: 10px;
+    border-radius: 100%;
 }
+
 .left-header-button-allign::after{
    content: 'Info';
    color: rgb(243, 239, 16);
    margin-right: 25px;
+}
 
 
+.social-media{
+    background-color: white;
+    display: block;
+    position: fixed;
+    top: 50%;
 
+    border-radius: 0px 5px 5px 0px;
+    border-top: solid rgb(22, 79, 126);
+    border-right: solid rgb(22, 79, 126);
+    border-bottom: solid rgb(22, 79, 126);
+
+  
+  
+
+}
+
+.social-media-button{
+    width: 50px;
+    height: 50px;
+}
