@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #4A94C9;
     margin: 0;
 }
 
@@ -10,8 +10,8 @@ body{
 }
 
 .imageLogo{
-    width: 45px;
-    height: 45px;
+    width: 35px;
+    height: 35px;
     margin: 5px;
 }
 
@@ -46,7 +46,7 @@ body{
     border: none;
     margin-right: 5px;
     padding: 10px;
-    border-radius: 100%;
+    border-radius: 30%;
 }
 
 .left-header-button-allign::after{
@@ -61,18 +61,43 @@ body{
     display: block;
     position: fixed;
     top: 50%;
-
+overflow: hidden;
     border-radius: 0px 5px 5px 0px;
     border-top: solid rgb(22, 79, 126);
     border-right: solid rgb(22, 79, 126);
     border-bottom: solid rgb(22, 79, 126);
-
-  
-  
-
 }
 
 .social-media-button{
     width: 50px;
     height: 50px;
+}
+
+.navbar{
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2376AE;
+    
+}
+
+.info{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    
+    position: relative;     
+    line-height: 55px;
+    
+}
+
+.info:hover{
+    background-color: tomato;
+    overflow: hidden;
+}
+
+.navLogo{
+    width: 55px;
+    height: 55px;
 }
