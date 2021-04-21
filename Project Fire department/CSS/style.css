@@ -73,8 +73,41 @@ overflow: hidden;
     height: 50px;
 }
 
+@media screen and (max-width: 600px) {
+nav a {
+    position:relative;
+    height: 20%;
+    background:#34495e;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+    display: block;
+    width: 100%;
+    text-align:center;
+  }
 
+nav a
+{
+    font-size:15px;
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    z-index: 1;
+    display: block;
+    text-align: center;
+}
+.navBar:hover
+{
+    font-size:15px;
+    text-transform: uppercase;
+    background-color:#1abc9c;
+    text-decoration: none;
+    z-index: 1;
+    display: block;
+    text-align: center;
+}
+}
 
+@media screen and (min-width: 600px)
+{
     nav
     {
         position:relative;
@@ -148,6 +181,7 @@ nav .start-about,a:nth-child(5):hover~.animation
 {
     width: 150px;
     left:440px;
+}
 }
 
 .imageLogo1{
