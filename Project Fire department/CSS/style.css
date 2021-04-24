@@ -63,7 +63,7 @@ body{
     display: block;
     position: fixed;
     top: 50%;
-overflow: hidden;
+    overflow: hidden;
     border-radius: 0px 5px 5px 0px;
     border-top: solid rgb(22, 79, 126);
     border-right: solid rgb(22, 79, 126);
@@ -115,6 +115,7 @@ nav a {
         background:#34495e;
         font-size:0;
         box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+        margin-bottom: 100px;
     }
     
     nav a
@@ -185,7 +186,7 @@ nav .start-about,a:nth-child(5):hover~.animation
 
 .imageLogo1{
     position:relative;
-    bottom:10px;
+    bottom: 10px;
     width: 20%;
     height: 80px;
     
