@@ -12,11 +12,22 @@ ul{
 
 .textInfo
 {
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     margin-left: 15%;
 }
 .eqTable
 {
     margin-left: 15%;
+}
+.text{
+    font-size: 30px;
+    color: white;
+    margin-left: 15%;
+    max-width: 70%;
+}
+.eqImage2{
+    width: 400px;
+    height: 400px;
+    margin-left: -10%;
 }
