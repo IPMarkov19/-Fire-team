@@ -1,0 +1,22 @@
+.structure-table{
+    
+    border: 2px solid crimson;
+}
+
+tr, td, table{
+    border: 1px solid black;
+    max-height: 800px;
+   
+}
+
+.diV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firefighter{
+    width: 300px;
+    height: 200px;
+    
+}
