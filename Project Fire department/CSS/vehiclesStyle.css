@@ -1,0 +1,21 @@
+#vehiclesTable{
+    width:75%;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    text-align: center;
+    font-size:20px;
+    color:white;
+}
+#conventionalFireEngineImage{
+    width:300px;
+    height:250px;
+}
+.vehiclesImages{
+    margin-left:30px;
+}
