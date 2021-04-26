@@ -1,0 +1,22 @@
+.headerEquipment
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+ul{
+    margin-left: 15%;
+    font-size: 25px;
+    color: white;
+}
+
+.textInfo
+{
+    font-size: 25px;
+    color: white;
+    margin-left: 15%;
+}
+.eqTable
+{
+    margin-left: 15%;
+}
